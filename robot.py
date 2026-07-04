@@ -38,9 +38,9 @@ class Robot:
                 continue 
                 
             # checking and filtering distances and make classification(STOP,SLOW,FAST) from sensor readings 
-            if distance <= 0.5:
+            if distance < 0.5:
                 action.append("STOP""| Obstacle too close")
-            elif 0.5 < distance <= 1:
+            elif 0.5 <= distance <= 1:
                 action.append("SLOW""| Obstacle nearby")
             else:
                 action.append("MOVE FAST""| Clear path")
