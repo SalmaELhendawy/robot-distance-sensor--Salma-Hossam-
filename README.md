@@ -13,8 +13,7 @@ and provides the logic (`analyze_sensor`) to process distance data and make move
 
 ## 4. How do I run the code?
 In the terminal down below, write `python3` followed by the file name:
-bash python3 robot.
-
+python3 robot.py
 ## 5. What did you learn from using AI?
 * How to structure clean methods like analyze_sensor.
 * It helped me structure the logical flow in my mind.
